@@ -1,0 +1,34 @@
+.main-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    perspective:700px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-self: center;
+}
+
+.img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    width: 900px;
+    align-self: center;
+    transform: rotateX(20deg);
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.explanation{
+    flex-direction: column;
+    display: flex;
+}

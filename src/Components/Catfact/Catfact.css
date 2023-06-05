@@ -1,0 +1,13 @@
+.main-div{
+    align-items: center;
+    perspective: 700px;
+    display: flex;
+}
+
+.catfact{
+    background-color: aqua;
+    align-items: center;
+    width: 300px;
+    transform: rotateX(27deg);
+}
+
