@@ -9,7 +9,7 @@ const APOD = () => {
 
   const handleDateChange = (event) => {
     const dateStr = event.target.value;
-    const apiKey = "h1YytEUnsS0ZKVcguggc1ErIr3aXxKnntQi2PnIs"; // replace with your actual API key
+    const apiKey = "8sPGmpZM16wKFEKApPx13OrciChemAweQazEjUht"; // replace with your actual API key
     const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&date=${dateStr}`;
 
     fetch(url)
